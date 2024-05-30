@@ -69,3 +69,5 @@ If you download additional dependencies, use this command to update requirements
 ```
 pip freeze > requirements.txt
 ```
+
+Copyright 2024 Nico Lorenzi, Isaac Shaker
