@@ -11,7 +11,7 @@ pip install venv
 ```
 
 ```
-python -m venv flip-finder
+python -m venv env
 ```
 
 ### <ins>TO ACTIVATE:</ins>
@@ -19,19 +19,19 @@ python -m venv flip-finder
 #### CMD:
 
 ```
-flip-finder\Scripts\activate.bat
+env\Scripts\activate.bat
 ```
 
 #### POWERSHELL:
 
 ```
-flip-finder\Scripts\Activate.ps1
+env\Scripts\Activate.ps1
 ```
 
 #### MAC:
 
 ```
-source flip-finder/bin/activate
+source env/bin/activate
 ```
 
 ### <ins>TO DEACTIVATE:</ins>
@@ -39,7 +39,7 @@ source flip-finder/bin/activate
 #### CMD:
 
 ```
-flip-finder\Scripts\deactivate.bat
+env\Scripts\deactivate.bat
 ```
 
 #### POWERSHELL:
