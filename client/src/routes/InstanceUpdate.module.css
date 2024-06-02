@@ -1,0 +1,48 @@
+.edit_post {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .edit_post h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit_post label {
+    margin-bottom: 8px;
+  }
+  
+  .edit_post input,
+  .edit_post textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+  }
+
+  .edit_post input:focus,
+  .edit_post textarea:focus {
+    outline: none; 
+    border: 2px solid #ccc;
+  }
+  
+  .edit_post button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #962900;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .edit_post button:hover {
+    background-color: #ad2e00;
+  }
+  

@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    background-color: #0b1416;
+    color: #fff;
+    border-bottom: 1px solid white;
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  
+  .searchBar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    flex: 1;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .searchBar:focus {
+    outline: none; 
+    border: 2px solid #ccc;
+  }
+  
+  .homeButton,
+  .createPostButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #962900;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .homeButton:hover,
+  .createPostButton:hover {
+    background-color: #ad2e00
+  }
+  

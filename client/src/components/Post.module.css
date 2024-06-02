@@ -1,0 +1,92 @@
+.post {
+    /* border: 1px solid #ccc;
+    border-radius: 8px; */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .post_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .post_meta {
+    font-style: italic;
+    color: #888888;
+    margin-bottom: 10px;
+  }
+  
+  .post_content {
+    margin-bottom: 10px;
+  }
+  
+  .post_image {
+    max-width: 35%;
+    margin-bottom: 10px;
+  }
+  
+  .post_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .comments {
+    background: #2b2a33;
+    width: 50%;
+    border: 1px solid #cccccc50;
+    border-radius: 15px;
+    margin: 20px;
+  }
+
+  .comments_form {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-bottom: 15px;
+  }
+  
+  .comments ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  .comments ul li {
+    margin-bottom: 5px;
+  }
+
+  .buttons_container {
+    display: inline-block;
+  }
+
+
+  .button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .button:hover {
+    background-color: #ad2e00
+  }
+
+  .orange {
+    background-color: #962900;
+
+  }
+
+  .orange:hover {
+    background-color: #ad2e00;
+
+  }
+
+  

@@ -1,0 +1,38 @@
+.postSummary_container {
+  border: 1px solid #cccccc50;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #dfe0e0;
+}
+
+.postSummary {
+  border: 1px solid transparent;
+  border-radius: 30px;
+  padding: 10px;
+  color: inherit;
+}
+
+.postSummary:hover {
+  background-color: #141e20;
+}
+
+.postTime {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.postTitle {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: inherit;
+}
+
+.postUpvotes {
+  font-weight: bold;
+  color: inherit;
+}
+  
